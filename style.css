@@ -10,6 +10,62 @@
   color: #27251F;
   box-sizing: border-box;
   font-family: sans-serif;
+  background-color: #1e3932;
+}
+
+body {
+  margin: auto;
+  width: 50%;
+  border: 3px solid transparent;
+  padding: 10px;
+}
+
+nav {
+  margin: auto;
+  height: 8%;
+  width: 70%;
+  border: 3px solid transparent;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+h1 {
+  font-size: 40px;
+  color: #f2f0eb;
+
+}
+
+header {
+  margin: auto;
+  width: 70%;
+  border: 3px solid lightgray;
+  padding: 10px;
+  background-color: lightgray;
+}
+
+label {
+  font-size: 20px;
+  color: #27251F;
+  background-color: lightgray;
+}
+
+.city-list {
+  margin: auto;
+  height: 20%;
+  width: 70%;
+  border: 3px solid lightgray;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.city-item {
+  color: #27251F;
+  border: 3px solid #00754a;
+  background-color: #00754a;
 }
 
 /* your code */
